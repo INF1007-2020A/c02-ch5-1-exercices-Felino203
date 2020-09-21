@@ -1,0 +1,23 @@
+test_format_number (__main__.TestExercice) ... ok
+test_get_bill (__main__.TestExercice) ... FAIL
+test_get_triangle (__main__.TestExercice) ... ok
+
+======================================================================
+FAIL: test_get_bill (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/felix/PycharmProjects/GitHubProjects/c02-ch5-1-exercices-Felino203/test_exercice.py", line 19, in test_get_bill
+    self.assertEqual(
+AssertionError: 'Äpik Gämmör\nSOUS TOTAL     507.96 $\nTAXES           76.1[24 chars]15 $' != 'Äpik Gämmör\nSOUS-TOTAL     507.96 $\nTAXES           76.1[24 chars]15 $'
+  Äpik Gämmör
+- SOUS TOTAL     507.96 $
+?     ^
++ SOUS-TOTAL     507.96 $
+?     ^
+  TAXES           76.19 $
+  TOTAL          584.15 $ : Mauvaise facture
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)

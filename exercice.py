@@ -23,7 +23,7 @@ def get_bill(name, data):
 	#Retourner la facture formaté (sous-total, taxes, total)
 
 	result = name
-	result += "\n" + f"SOUS-TOTAL {soustotal : >10.2f} $"
+	result += "\n" + f"SOUS TOTAL {soustotal : >10.2f} $"
 	result += "\n" + f"TAXES      {taxes : >10.2f} $"
 	result += "\n" + f"TOTAL      {total : >10.2f} $"
 
